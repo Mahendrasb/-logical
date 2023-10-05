@@ -3,7 +3,7 @@ package stringlogical;
 import java.util.Arrays;
 
 public class charWuthOccurance {
-public static void main(String[] args) {
+public static void main(String[] args) { 
 	String str="opentext";
 	char charToreplace='t';
 	
