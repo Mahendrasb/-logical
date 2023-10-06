@@ -46,5 +46,21 @@ public class sortArray {
 				System.out.print(a[i]+" ");
 		
 		}
+		System.out.println();
+		System.out.println("using single for loop");
+		for(int i=0;i<a.length-1;i++) {
+			int temp=0;
+			if(a[i]>a[i+1]) {
+				temp=a[i];
+				a[i]=a[i+1];
+				a[i+1]=temp;
+				i=-1;
+			}
+			
+			//System.out.print(a[i]+" ");
+		}
+		for(int element:a) {
+			System.out.print(element+" ");
+		}
 	}
 }

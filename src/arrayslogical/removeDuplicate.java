@@ -25,9 +25,11 @@ public class removeDuplicate {
 					a[i]=-1;
 				}
 			}
+			System.out.print(a[i]+" ");
 		}
 		System.out.println("removed array");
 		for(int i=0;i<a.length;i++) {
+			//System.out.print(a[i]+" ");
 			if(a[i]!=-1) {
 				System.out.print(a[i]+" ");
 			}
